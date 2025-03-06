@@ -9,7 +9,9 @@ plt.figure(figsize=(10, 10))
 
 img_RGB = [img_r, img_g, img_b, img_rgb]
 img_name = ['R', 'G', 'B', 'RGB']
+
 ii = 1
+
 for i in range(4):
     plt.subplot(2, 2, i + 1)
     plt.axis("off")
