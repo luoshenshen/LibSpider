@@ -17,4 +17,5 @@ client = AipOcr(APP_ID, API_KEY, SECRET_KEY)
 
 def get_file_content(filePath):
     with open(filePath, 'rb') as fp:
+        print(filePath)
         return fp.read()
