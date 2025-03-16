@@ -1,6 +1,7 @@
 from PIL import Image
 import matplotlib.pyplot as plt
 
+# 使用字体 lena_std
 img = Image.open('lena_std.tif')
 
 img_r, img_g, img_b = img.split()
