@@ -10,7 +10,7 @@ import time
 import tkinter as tk
 from tkinter import ttk
 import api
-from function import seat_time
+from core.function import seat_time
 
 cookie = ''
 floor = ''
